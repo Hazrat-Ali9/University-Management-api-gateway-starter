@@ -1,5 +1,5 @@
 import { Response } from 'express';
-
+// Response
 interface IResponse {
   success: boolean;
   statusCode: number;
