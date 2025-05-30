@@ -4,7 +4,7 @@ import express, { Application } from 'express';
 import httpStatus from 'http-status';
 import globalExceptionHandler from './app/middlewares/globalExceptionHandler';
 import routes from './app/routes';
-
+// apps
 const app: Application = express();
 
 
