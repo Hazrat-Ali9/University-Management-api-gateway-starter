@@ -4,3 +4,4 @@ export enum ENUM_USER_ROLE {
   STUDENT = 'student',
   FACULTY = 'faculty'
 }
+// user ts
