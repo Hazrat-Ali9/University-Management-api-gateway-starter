@@ -1,5 +1,5 @@
 import { IGenericErrorResponse } from '../interfaces/common';
-
+// Handle zed Error
 export default function handleZodError(error: any): IGenericErrorResponse {
   const statusCode = 400;
   const message = 'Validation Error';
