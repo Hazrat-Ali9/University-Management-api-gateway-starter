@@ -2,7 +2,7 @@ import httpStatus from 'http-status';
 import { verify } from 'jsonwebtoken';
 import config from '../config';
 import ApiError from '../errors/apiError';
-
+// jwt helper
 const verifyToken = (token: string) => {
   try {
     const isVerified = verify(token, config.jwt.secret);
