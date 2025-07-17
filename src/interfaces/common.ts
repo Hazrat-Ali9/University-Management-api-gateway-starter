@@ -9,7 +9,7 @@ export interface IGenericResponse {
   };
   data?: any;
 }
-
+// comment ts
 export interface IGenericErrorResponse {
   statusCode: number;
   message: string;
